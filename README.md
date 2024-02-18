@@ -127,22 +127,22 @@ Este teste de integração simula a abertura de um menu no aplicativo e verifica
   5.5 Verifica se o novo tipo de cliente foi salvo corretamente no provedor 
       de estado (Provider), verificando o nome e o ícone.
 
-### 4 - Teste de Adição de Novo Cliente: 
+### 6 - Teste de Adição de Novo Cliente: 
 
  O código simula a adição de um novo cliente ('DandaraBot') com detalhes específicos e verifica se o cliente foi adicionado corretamente, tanto na UI quanto no provedor de estado.
 
 
-### 5 - Verificações Finais: 
+### 7 - Verificações Finais: 
 
 
  Após adicionar o novo cliente, o teste verifica se os detalhes do cliente aparecem corretamente na UI e se os dados foram salvos corretamente no provedor de estado.
 
 
-### 7- Conclusão
+### 8- Conclusão
 
    Este teste de integração cobre várias funcionalidades do aplicativo, incluindo a navegação entre telas, a interação com elementos da UI como botões e formulários, e a verificação de que o estado da aplicação é atualizado corretamente após essas interações. É uma forma eficaz de garantir que o fluxo de usuário principal do aplicativo funciona como esperado.
 
-### 8 - Observações finais
+### 9 - Observações finais
 
    Para realizar o teste de dados em provider foi necessário adicionar uma parametro de uma "key" na função main que por sintaxe sempre 
    será necessário ser precedido um array
