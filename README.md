@@ -104,27 +104,27 @@ Este teste de integração simula a abertura de um menu no aplicativo e verifica
    Define um teste de widget dentro do contexto de testes de integração. O teste é nomeado 'Integration Test' e recebe um widget tester 
    como argumento, que permite simular interações do usuário e inspecionar o estado da UI.
 
-### 3 - Inicialização do App: 
+### 4 - Inicialização do App: 
 
   O teste começa executando a função main do aplicativo (app.main) com argumentos específicos para o teste, preparando o ambiente.
 
-### 3 - Testes de UI: 
+### 5 - Testes de UI: 
 
  O código procede com uma série de verificações e interações na UI:
 
-  3.1 Verifica se elementos específicos estão presentes na tela inicial, 
+  5.1 Verifica se elementos específicos estão presentes na tela inicial, 
       como o texto 'Clientes', um ícone de menu e um FloatingActionButton.
 
-  3.2 Simula a abertura de um menu (Drawer) e verifica a presença de itens específicos como 
+  5.2 Simula a abertura de um menu (Drawer) e verifica a presença de itens específicos como 
       'Menu', 'Gerenciar clientes', 'Tipos de clientes' e 'Sair'.
 
-  3.3 Navega para a tela de 'Tipos de clientes', verifica a presença de tipos 
+  5.3 Navega para a tela de 'Tipos de clientes', verifica a presença de tipos 
       de clientes específicos e o botão para adicionar novos tipos.
 
-  3.4 Simula a adição de um novo tipo de cliente ('Ferro') e verifica 
+  5.4 Simula a adição de um novo tipo de cliente ('Ferro') e verifica 
       se o tipo foi adicionado corretamente.
 
-  3.5 Verifica se o novo tipo de cliente foi salvo corretamente no provedor 
+  5.5 Verifica se o novo tipo de cliente foi salvo corretamente no provedor 
       de estado (Provider), verificando o nome e o ícone.
 
 ### 4 - Teste de Adição de Novo Cliente: 
